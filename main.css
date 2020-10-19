@@ -1,0 +1,97 @@
+body{
+   background-image: url('./assets/background-image1.png');
+   height:100%;
+   overflow: hidden; 
+   background-repeat: no-repeat;
+   background-size: cover;
+   font-style: Nunito Sans;
+}
+.main1{
+    display: grid;
+    justify-items: end;
+    top:30px;
+}
+h1,h3{
+    margin:0; 
+}
+.main3{
+    margin-top: 22px;
+   display:flex;
+   justify-content: space-between;
+   background-color: orangered;
+   width:1000px;
+   height:45px;
+   font-size: 2em;
+   border :1px  solid;
+   padding: 1px;
+  
+}
+.main6{
+    display:flex;
+    justify-content: space-between;
+    background-color:rgb(245, 240, 240);
+    width:1000px;
+    height:35px;
+    font-size: 1em;
+    border :1px  solid;
+    padding: 2px;
+}
+.main4{
+    display:grid;
+    grid-template-columns:2fr 2fr 1fr 1fr 1fr 1fr 1fr;
+    background-color:rgb(245, 240, 240);
+    width:1000px;
+    height:35px;
+    font-size: 1em;
+    border :1px  solid;
+    padding: 2px;
+ }
+ .main5{
+    display:grid;
+    grid-template-columns: 2fr 2fr 1fr 1fr 1fr 1fr 1fr;
+    background-color:rgb(245, 240, 240);
+    width:1000px;
+    height:35px;
+    font-size: 1em;
+    border :1px  solid;
+    padding: 2px;
+}
+
+/* change the font family and spacing as per your project font */
+.footer{
+    display:flex;
+    flex-direction: row;
+    align-content: flex-end;
+	position: relative;
+	top: 750px;
+	margin-left: 80px;
+	font-size: 18px;
+	font-family: Nunito Sans;
+    font-style: normal;
+    
+}
+.container {
+	background: white;
+	display: flex;
+	flex-direction: column;
+	border-radius: 20px;
+	width: 1200px;
+	padding: 5px;
+    align-self: center;
+    top:30%;
+    width:30%;
+}
+.row {
+	display: flex;
+	flex-direction: row;
+}
+.col {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.container > .row {
+	width: 100%;
+	justify-content: space-evenly;
+}
